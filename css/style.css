@@ -8,18 +8,20 @@ body {
   background-image: url(../img/sfondo.png);
   background-size: auto;
   width: 450px;
+  padding-bottom: 20px;
 }
 
 /* HEADER */
 header {
   text-align: center;
   background-image: linear-gradient(177deg, #05c0f7, #03789b);
-  margin-left: 65px;
+  margin-left: 50px;
   margin-top: 20px;
-  margin-right: 65px;
+  margin-right: 50px;
   margin-bottom: 20px;
   block-size: auto;
   padding-block: 20px;
+  padding-top: 30px;
   line-height: 50px;
   box-shadow: 2px 9px 15px -6px #000000;
 }
@@ -46,8 +48,8 @@ header a {
 main {
   text-align: left;
   background-image: linear-gradient(177deg, #ffffff, #ffffff);
-  margin-left: 65px;
-  margin-right: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 20px;
   block-size: auto;
   padding-block: 20px;
@@ -68,11 +70,8 @@ h1 {
 }
 
 main strong {
-  color: rgb(110, 52, 165);
+  color: fuchsia;
   font-weight: bold;
-}
-
-main {
 }
 
 .subtitle {
@@ -86,13 +85,13 @@ main p {
 }
 
 main ul {
-  padding-inline-start: 20px;
+  padding-inline-start: 30px;
   padding-bottom: 20px;
   line-height: 22px;
 }
 
 main ol {
-  padding-inline-start: 20px;
+  padding-inline-start: 30px;
   padding-bottom: 20px;
   line-height: 20px;
 }
@@ -172,7 +171,6 @@ main p a {
 /* FORM */
 
 h2 {
-  padding-bottom: 20px;
   text-align: center;
   text-transform: uppercase;
   font-size: x-large;
@@ -189,12 +187,21 @@ h2 {
   margin-bottom: 30px;
 }
 
+fieldset {
+  text-align: center;
+}
+
+.form-text {
+  line-height: 20px;
+}
+
 .form-bar {
   border-radius: 0px;
   border: none;
   border-bottom: dashed 1px;
   padding-top: 3px;
   padding-bottom: 3px;
+  width: 205px;
 }
 
 .form-button {
@@ -208,4 +215,53 @@ h2 {
 
 /* ELEMENTI NELL' ASIDE */
 
+aside a {
+  color: #05c0f7;
+}
+
+aside p {
+  line-height: 28px;
+}
+
+.articles {
+  padding-top: 20px;
+  block-size: auto;
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.articles-dates {
+  padding-bottom: 0px;
+  text-align: right;
+}
+
 /* FOOTER */
+
+footer {
+  text-align: center;
+  background-image: linear-gradient(177deg, #026a89, #001e27);
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 50px;
+  block-size: auto;
+  padding-block: 20px;
+  box-shadow: 0px 9px 9px -3px #000000;
+  color: white;
+}
+
+.footer-paragraph {
+  padding-bottom: 20px;
+}
+
+footer address {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer a {
+  color: fuchsia;
+}

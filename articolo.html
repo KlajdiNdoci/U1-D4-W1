@@ -25,21 +25,13 @@
         <nav>
           <ul>
             <li>
-              <a href="index.html" title="Home Page"
-                ><i class="fas fa-angle-double-right">&nbsp</i>Home<i class="fas fa-angle-double-left">&nbsp</i></a
-              >
+              <a href="index.html" title="Home Page">⇒ Home ⇐</a>
             </li>
             <li>
-              <a href="articoli.html" title="Elenco degli articoli tecnici pubblicati"
-                ><i class="fas fa-angle-double-right">&nbsp</i>Articoli<i class="fas fa-angle-double-left">&nbsp</i></a
-              >
+              <a href="articoli.html" title="Elenco degli articoli tecnici pubblicati">⇒ Articoli⇐</a>
             </li>
             <li>
-              <a href="contatti.html" title="Candidati inviando un tuo cv"
-                ><i class="fas fa-angle-double-right">&nbsp</i>Lavora con noi<i class="fas fa-angle-double-left"
-                  >&nbsp</i
-                ></a
-              >
+              <a href="contatti.html" title="Candidati inviando un tuo cv">⇒ Lavora con noi ⇐</a>
             </li>
           </ul>
         </nav>
@@ -49,7 +41,7 @@
         <article>
           <h1>Come creare un template per i post</h1>
           <p class="subtitle">
-            <i class="fas fa-pen-square" style="color: #8e98a9"">&nbsp</i>di Mario Rossi -
+            <i class="fas fa-pen-square" style="color: #8e98a9">&nbsp</i>di Mario Rossi -
             <i class="fas fa-clock" style="color: #8e98a9">&nbsp</i>pubblicato il 25-10-2020
           </p>
 
@@ -86,14 +78,14 @@
             <caption class="table-title">
               Diffusione dei CSS
             </caption>
-            <thead>
+            <thead class="table-head-boxes">
               <tr>
                 <th>Anno</th>
                 <th>% di utilizzo</th>
                 <th>Supporto browsers</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="table-cells">
               <tr>
                 <td>2000</td>
                 <td>20&percnt;</td>
@@ -122,7 +114,7 @@
             </tbody>
           </table>
 
-          <p>
+          <p class="test-tool-paragraph">
             Un test di validazione potrà essere fatto tramite il
             <a href="https://jigsaw.w3.org/css-validator/" target="blank" title="Validatore CSS online del W3C"
               >tool online</a
@@ -133,22 +125,27 @@
 
           <div class="video">
             <iframe
-              width="300"
-              height="300"
               src="https://www.youtube.com/embed/dvOvHXruEDM"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
-          <section>
+          <section class="form">
             <h2>Novità</h2>
             <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
 
             <form method="POST" action="elabora_form.php">
               <fieldset>
-                <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required />
-                <button type="submit">Iscriviti!</button>
+                <input
+                  class="form-bar"
+                  type="email"
+                  name="user_email"
+                  id="user_email"
+                  placeholder="inserisci l'email"
+                  required
+                />
+                <button class="form-button" type="submit">Iscriviti!</button>
               </fieldset>
             </form>
           </section>

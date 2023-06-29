@@ -51,6 +51,8 @@ main {
   margin-bottom: 20px;
   block-size: auto;
   padding-block: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   box-shadow: 2px 9px 15px -6px #000000;
 }
 
@@ -71,8 +73,6 @@ main strong {
 }
 
 main {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .subtitle {
@@ -111,7 +111,100 @@ main ol {
   font-style: italic;
   padding-bottom: 5px;
 }
+
+.table-boxes {
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(47, 123, 238);
+  height: 55px;
+}
+
+th {
+  text-align: center;
+  vertical-align: bottom;
+  padding: 18px;
+  color: white;
+  border: solid 1px;
+  border-color: white;
+  line-height: 20px;
+}
+
+.table-head-boxes {
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(47, 123, 238);
+  height: 55px;
+}
+
+table tr:nth-of-type(2) {
+  background: lightgrey;
+}
+table tr:nth-of-type(4) {
+  background: lightgrey;
+}
+
+main td {
+  text-align: center;
+  vertical-align: bottom;
+  padding: 15px;
+  border: solid 1px;
+  border-color: white;
+}
+
+table {
+  border-bottom: solid rgb(47, 123, 238);
+}
+
+.test-tool-paragraph {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main p a {
+  color: #05c0f7;
+}
+
+.video {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
 /* FORM */
+
+h2 {
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: x-large;
+}
+
+.form {
+  padding-top: 20px;
+  block-size: auto;
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-bar {
+  border-radius: 0px;
+  border: none;
+  border-bottom: dashed 1px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.form-button {
+  border-radius: 0px;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(47, 123, 238);
+  color: #ffffff;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
